@@ -1,0 +1,1 @@
+export { LegalTemplate } from './LegalTemplate'

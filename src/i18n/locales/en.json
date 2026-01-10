@@ -1,0 +1,192 @@
+{
+  "app": {
+    "name": "Map Brief",
+    "tagline": "Draw Your Thoughts and Memories on the Map"
+  },
+  "nav": {
+    "home": "Home",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "bugReport": "Bug Report"
+  },
+  "home": {
+    "hero": {
+      "title": "Draw Your Thoughts and Memories on the Map",
+      "subtitle": "Sometimes, simply saving a location isn't enough. Details like \"Enter through this alley for the entrance\" or \"The view is best from this exact spot\" are hard to capture with text alone.",
+      "description": "Map Brief is the most intuitive map recording app that lets you sketch directly on the map with a pen and pin photos to specific spots to capture the moment."
+    },
+    "features": {
+      "title": "Key Features",
+      "drawing": {
+        "title": "Freeform Map Drawing",
+        "description": "Draw paths, zones, and notes freely on the map using your Apple Pencil or finger. Intuitively visualize complex directions, hiking trails, or your personal walking courses."
+      },
+      "photoMarker": {
+        "title": "Vivid Photo Markers",
+        "description": "Drag and drop photos to pin them to specific locations. Check restaurant menus, travel sceneries, or site conditions exactly where they happened on the map."
+      },
+      "mapModes": {
+        "title": "Various Map Modes",
+        "description": "Choose the map that fits your needs, from clean standard maps for clarity to immersive satellite views for reality."
+      }
+    },
+    "recommendations": {
+      "title": "Recommended For",
+      "foodie": {
+        "title": "Foodie Explorers",
+        "description": "Those who want to build their own restaurant map complete with menu photos."
+      },
+      "traveler": {
+        "title": "Travel Planners",
+        "description": "Those who want to visually organize travel routes and key spots."
+      },
+      "surveyor": {
+        "title": "Field & Site Surveyors",
+        "description": "Those who need to note real estate locations or site specifics directly on the map."
+      }
+    },
+    "cta": "Complete your own personal map with Map Brief today."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "What devices is Map Brief available on?",
+        "answer": "Map Brief is currently available on iOS devices (iPhone, iPad). Using an iPad with Apple Pencil enables more precise drawing capabilities."
+      },
+      {
+        "question": "Can I use it offline?",
+        "answer": "Yes, saved map data can be viewed offline. However, loading new map areas requires an internet connection."
+      },
+      {
+        "question": "Where is my data stored?",
+        "answer": "All data is stored locally on your device. Cloud sync features will be available in future updates."
+      },
+      {
+        "question": "Can I export or share my map data?",
+        "answer": "Yes, you can export your maps as images or backup the data as files."
+      },
+      {
+        "question": "Is it free to use?",
+        "answer": "The basic features of Map Brief are available for free."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "If you have any questions about Map Brief, please contact us via email below.",
+    "email": "Email",
+    "responseTime": "We typically respond within 1-2 business days."
+  },
+  "bugReport": {
+    "title": "Bug Report",
+    "description": "Please let us know about any bugs or issues you encounter while using Map Brief. Your feedback helps us improve the app.",
+    "howTo": {
+      "title": "How to Report a Bug",
+      "steps": [
+        "Describe the problem in as much detail as possible",
+        "Explain the situation when the problem occurred (what action triggered it)",
+        "Include your device model and iOS version",
+        "If possible, attach screenshots or screen recordings"
+      ]
+    },
+    "email": "Send Bug Report"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated",
+    "sections": {
+      "intro": {
+        "title": "Overview",
+        "content": "Map Brief (the 'App') values your privacy and complies with applicable privacy laws. This Privacy Policy explains what information the App collects and how it is used."
+      },
+      "collection": {
+        "title": "Information We Collect",
+        "content": "The App collects only minimal information necessary to provide its services.",
+        "items": [
+          "Location Information: We may collect your current location to provide map features (only with your consent)",
+          "Photos: We access selected photos for the photo marker feature (only with your consent)",
+          "Usage Data: We may collect anonymized usage statistics to improve the app"
+        ]
+      },
+      "storage": {
+        "title": "Data Storage",
+        "content": "All map data, drawings, and notes you create are stored locally on your device. The current version does not transmit data to external servers."
+      },
+      "sharing": {
+        "title": "Information Sharing",
+        "content": "The App does not share your personal information with third parties. However, we may provide information as required by law."
+      },
+      "rights": {
+        "title": "Your Rights",
+        "content": "You can delete your data from the app at any time. Deleting the app will also delete all data stored on your device."
+      },
+      "changes": {
+        "title": "Policy Changes",
+        "content": "This Privacy Policy may be updated as needed. We will notify you of significant changes through in-app notifications."
+      },
+      "contact": {
+        "title": "Contact",
+        "content": "For questions about this Privacy Policy, please contact us via email below."
+      }
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last Updated",
+    "sections": {
+      "acceptance": {
+        "title": "Acceptance of Terms",
+        "content": "By downloading or using Map Brief (the 'App'), you agree to these Terms of Service. If you do not agree to these terms, please do not use the App."
+      },
+      "service": {
+        "title": "Service Description",
+        "content": "The App provides a service for recording notes, drawings, and photos on maps. Features and content may change without prior notice."
+      },
+      "usage": {
+        "title": "Usage Rules",
+        "content": "Users must not:",
+        "items": [
+          "Use the App for illegal purposes",
+          "Interfere with the normal operation of the App",
+          "Reverse engineer, decompile, or disassemble the App",
+          "Create content that infringes on others' rights"
+        ]
+      },
+      "intellectual": {
+        "title": "Intellectual Property",
+        "content": "All intellectual property rights to the App's design, logo, software, and content belong to the developer. Rights to content created by users through the App belong to the users."
+      },
+      "disclaimer": {
+        "title": "Disclaimer",
+        "content": "The App is provided 'as is' without warranties of fitness for a particular purpose or error-free operation. The developer is not responsible for damages resulting from use of the App."
+      },
+      "termination": {
+        "title": "Service Termination",
+        "content": "The developer may change, suspend, or terminate the App service without prior notice."
+      },
+      "changes": {
+        "title": "Changes to Terms",
+        "content": "These Terms of Service may be updated as needed. Updated terms will be announced through in-app posting or other means."
+      },
+      "governing": {
+        "title": "Governing Law",
+        "content": "These terms are interpreted and applied in accordance with the laws of the Republic of Korea."
+      },
+      "contact": {
+        "title": "Contact",
+        "content": "For questions about these Terms of Service, please contact us via email below."
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 Map Brief. All rights reserved."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "back": "Back"
+  }
+}

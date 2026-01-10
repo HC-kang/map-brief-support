@@ -1,0 +1,6 @@
+export { HomePage } from './HomePage'
+export { FAQPage } from './FAQPage'
+export { ContactPage } from './ContactPage'
+export { BugReportPage } from './BugReportPage'
+export { PrivacyPage } from './PrivacyPage'
+export { TermsPage } from './TermsPage'
