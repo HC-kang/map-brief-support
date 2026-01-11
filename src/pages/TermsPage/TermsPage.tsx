@@ -20,7 +20,7 @@ export function TermsPage() {
   ]
 
   return (
-    <LegalTemplate title={t('terms.title')} lastUpdated="2024-01-01">
+    <LegalTemplate title={t('terms.title')} lastUpdated="2026-01-01">
       <div className="space-y-8">
         {sections.map(({ key, hasItems, showEmail }) => (
           <section key={key}>

@@ -57,10 +57,6 @@
         "answer": "Map Brief is currently available on iOS devices (iPhone, iPad). Using an iPad with Apple Pencil enables more precise drawing capabilities."
       },
       {
-        "question": "Can I use it offline?",
-        "answer": "Yes, saved map data can be viewed offline. However, loading new map areas requires an internet connection."
-      },
-      {
         "question": "Where is my data stored?",
         "answer": "All data is stored locally on your device. Cloud sync features will be available in future updates."
       },
@@ -182,7 +178,7 @@
     }
   },
   "footer": {
-    "copyright": "© 2024 Map Brief. All rights reserved."
+    "copyright": "© 2026 Map Brief. All rights reserved."
   },
   "common": {
     "loading": "Loading...",

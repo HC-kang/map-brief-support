@@ -57,10 +57,6 @@
         "answer": "Map Brief는 현재 iOS 기기(iPhone, iPad)에서 사용 가능합니다. 특히 iPad와 Apple Pencil을 함께 사용하면 더욱 정밀한 드로잉이 가능합니다."
       },
       {
-        "question": "오프라인에서도 사용할 수 있나요?",
-        "answer": "네, 저장된 지도 데이터는 오프라인에서도 확인할 수 있습니다. 다만, 새로운 지도 영역을 로드하려면 인터넷 연결이 필요합니다."
-      },
-      {
         "question": "데이터는 어디에 저장되나요?",
         "answer": "모든 데이터는 기기 로컬에 저장됩니다. 클라우드 동기화 기능은 향후 업데이트에서 제공될 예정입니다."
       },
@@ -182,7 +178,7 @@
     }
   },
   "footer": {
-    "copyright": "© 2024 Map Brief. All rights reserved."
+    "copyright": "© 2026 Map Brief. All rights reserved."
   },
   "common": {
     "loading": "로딩 중...",
