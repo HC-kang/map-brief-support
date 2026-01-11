@@ -11,7 +11,7 @@ export function ContactPage() {
     <PageTemplate title={t('contact.title')} subtitle={t('contact.description')}>
       <div className="bg-white rounded-xl border border-slate-200 p-8">
         <div className="flex items-start gap-4">
-          <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-blue-100 text-blue-600">
+          <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-[#d1ebe1] text-[#2E5F4D]">
             <Icon name="mail" size="lg" />
           </div>
           <div>

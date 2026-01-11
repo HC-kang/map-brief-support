@@ -11,10 +11,10 @@ interface LinkProps extends Omit<AnchorHTMLAttributes<HTMLAnchorElement>, 'href'
 }
 
 const variantStyles: Record<LinkVariant, string> = {
-  default: 'text-blue-500 hover:text-blue-600 hover:underline',
-  nav: 'text-slate-700 hover:text-blue-500 font-medium transition-colors',
+  default: 'text-[#2E5F4D] hover:text-[#1e3d32] hover:underline',
+  nav: 'text-slate-700 hover:text-[#2E5F4D] font-medium transition-colors',
   footer: 'text-slate-500 hover:text-slate-700 text-sm',
-  inline: 'text-blue-500 underline hover:text-blue-600',
+  inline: 'text-[#2E5F4D] underline hover:text-[#1e3d32]',
 }
 
 export function Link({

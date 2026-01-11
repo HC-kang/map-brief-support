@@ -11,9 +11,9 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 const variantStyles: Record<ButtonVariant, string> = {
-  primary: 'bg-blue-500 text-white hover:bg-blue-600 active:bg-blue-700',
+  primary: 'bg-[#2E5F4D] text-white hover:bg-[#1e3d32] active:bg-[#1a3529]',
   secondary: 'bg-slate-500 text-white hover:bg-slate-600 active:bg-slate-700',
-  outline: 'border-2 border-blue-500 text-blue-500 hover:bg-blue-50 active:bg-blue-100',
+  outline: 'border-2 border-[#2E5F4D] text-[#2E5F4D] hover:bg-[#e8f5f0] active:bg-[#d1ebe1]',
   ghost: 'text-slate-600 hover:bg-slate-100 active:bg-slate-200',
 }
 
@@ -32,7 +32,7 @@ export function Button({
   disabled,
   ...props
 }: ButtonProps) {
-  const baseStyles = 'rounded-lg font-medium transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed'
+  const baseStyles = 'rounded-lg font-medium transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#2E5F4D] focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed'
   
   return (
     <button

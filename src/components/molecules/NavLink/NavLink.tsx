@@ -15,7 +15,7 @@ export function NavLink({ to, children, onClick }: NavLinkProps) {
     <Link
       to={to}
       variant="nav"
-      className={isActive ? 'text-blue-500' : ''}
+      className={isActive ? 'text-[#2E5F4D]' : ''}
       onClick={onClick}
     >
       {children}

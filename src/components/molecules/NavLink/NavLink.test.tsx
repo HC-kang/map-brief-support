@@ -24,11 +24,11 @@ describe('NavLink', () => {
 
   it('applies active style when on current route', () => {
     renderWithRouter(<NavLink to="/about">About</NavLink>, { route: '/about' })
-    expect(screen.getByRole('link')).toHaveClass('text-blue-500')
+    expect(screen.getByRole('link')).toHaveClass('text-[#2E5F4D]')
   })
 
   it('does not apply active style when on different route', () => {
     renderWithRouter(<NavLink to="/about">About</NavLink>, { route: '/home' })
-    expect(screen.getByRole('link')).not.toHaveClass('text-blue-500')
+    expect(screen.getByRole('link')).not.toHaveClass('text-[#2E5F4D]')
   })
 })

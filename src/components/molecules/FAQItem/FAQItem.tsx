@@ -12,7 +12,7 @@ export function FAQItem({ question, answer }: FAQItemProps) {
   return (
     <div className="border-b border-slate-200 last:border-b-0">
       <button
-        className="flex items-center justify-between w-full py-4 text-left focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded-lg"
+        className="flex items-center justify-between w-full py-4 text-left focus:outline-none focus:ring-2 focus:ring-[#2E5F4D] focus:ring-offset-2 rounded-lg"
         onClick={() => setIsOpen(!isOpen)}
         aria-expanded={isOpen}
       >

@@ -38,7 +38,7 @@ describe('Text', () => {
     expect(screen.getByText('Muted')).toHaveClass('text-slate-500')
 
     rerender(<Text color="accent">Accent</Text>)
-    expect(screen.getByText('Accent')).toHaveClass('text-blue-500')
+    expect(screen.getByText('Accent')).toHaveClass('text-[#2E5F4D]')
   })
 
   it('applies custom className', () => {

@@ -19,7 +19,7 @@ export function Header() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-            <Icon name="map" size="lg" className="text-blue-500" />
+            <Icon name="map" size="lg" className="text-[#2E5F4D]" />
             <Text variant="h4" as="span" className="font-bold">
               {t('app.name')}
             </Text>

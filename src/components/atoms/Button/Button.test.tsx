@@ -27,13 +27,13 @@ describe('Button', () => {
 
   it('applies variant styles correctly', () => {
     const { rerender } = render(<Button variant="primary">Primary</Button>)
-    expect(screen.getByRole('button')).toHaveClass('bg-blue-500')
+    expect(screen.getByRole('button')).toHaveClass('bg-[#2E5F4D]')
 
     rerender(<Button variant="secondary">Secondary</Button>)
     expect(screen.getByRole('button')).toHaveClass('bg-slate-500')
 
     rerender(<Button variant="outline">Outline</Button>)
-    expect(screen.getByRole('button')).toHaveClass('border-blue-500')
+    expect(screen.getByRole('button')).toHaveClass('border-[#2E5F4D]')
   })
 
   it('applies size styles correctly', () => {

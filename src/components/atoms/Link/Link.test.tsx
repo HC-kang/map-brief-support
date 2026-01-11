@@ -30,7 +30,7 @@ describe('Link', () => {
 
   it('applies variant styles correctly', () => {
     const { rerender } = renderWithRouter(<Link to="/test" variant="default">Default</Link>)
-    expect(screen.getByRole('link')).toHaveClass('text-blue-500')
+    expect(screen.getByRole('link')).toHaveClass('text-[#2E5F4D]')
 
     rerender(<BrowserRouter><Link to="/test" variant="nav">Nav</Link></BrowserRouter>)
     expect(screen.getByRole('link')).toHaveClass('text-slate-700')

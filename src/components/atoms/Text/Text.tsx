@@ -25,7 +25,7 @@ const colorStyles: Record<TextColor, string> = {
   primary: 'text-slate-900',
   secondary: 'text-slate-700',
   muted: 'text-slate-500',
-  accent: 'text-blue-500',
+  accent: 'text-[#2E5F4D]',
   white: 'text-white',
 }
 
